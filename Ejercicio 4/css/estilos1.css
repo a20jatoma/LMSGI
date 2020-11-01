@@ -1,0 +1,59 @@
+
+
+body{
+	font-style: sans-serif;
+	background-color: lightgray;
+	font-size: 12pt;
+	text-align: left;
+	margin: 10px;
+}
+
+h1{
+	font-family: 'Fredoka One', cursive;
+	font-size: 300%;
+	text-align: center;
+	letter-spacing: 10px;
+}
+
+h2{ 
+	text-indent: 10px;
+	background-color: gray;
+	color: white;
+}
+
+div {
+	@font-face {
+  		font-family: 'Henny Penny';
+  		src: url('../ttf/-IndieFlower.ttf');
+ 		 src: url('Crimson-Roman.eot?#iefix') format('embedded-opentype'),
+    	  url('Crimson-Roman.woff') format('woff'),
+    	  url('Crimson-Roman.ttf') format('truetype'),
+    	  url('Crimson-Roman.svg#CrimsonRoman') format('svg');
+  	font-weight: normal;
+ 	 font-style: normal;
+}
+
+p{
+	text-indent: 2rem;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 106px;
+    height: 150px;
+}
+
+em{
+    background-color: white;
+    font-weight: bold;
+    font-style: normal;
+}
+
+span{
+    color: red;
+    font-style: oblique
+}
