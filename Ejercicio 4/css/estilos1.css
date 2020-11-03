@@ -19,18 +19,14 @@ h2{
 	text-indent: 10px;
 	background-color: gray;
 	color: white;
-}
-
-div {
-	@font-face {
-  		font-family: 'Henny Penny';
-  		src: url('../ttf/-IndieFlower.ttf');
- 		 src: url('Crimson-Roman.eot?#iefix') format('embedded-opentype'),
-    	  url('Crimson-Roman.woff') format('woff'),
-    	  url('Crimson-Roman.ttf') format('truetype'),
-    	  url('Crimson-Roman.svg#CrimsonRoman') format('svg');
-  	font-weight: normal;
- 	 font-style: normal;
+    font-family: 'Henny Penny';
+    src: url('../ttf/-IndieFlower.ttf');
+         src: url('Crimson-Roman.eot?#iefix') format('embedded-opentype'),
+          url('Crimson-Roman.woff') format('woff'),
+          url('Crimson-Roman.ttf') format('truetype'),
+          url('Crimson-Roman.svg#CrimsonRoman') format('svg');
+    font-weight: normal;
+    font-style: normal;
 }
 
 p{
