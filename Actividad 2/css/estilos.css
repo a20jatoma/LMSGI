@@ -1,0 +1,29 @@
+﻿/* comentario **/
+
+h1{
+	background-color: Lightblue;
+	font-family: italic bold;
+	color: blue;
+	font-size: 32pt;
+	text-align: center;
+}
+
+ul{
+	list-style-image: url("../img/flecha-azul.png");
+}
+
+ol ul{
+	list-style-image: url("../img/flecha-rojal.png");
+}
+
+ul ul{
+	list-style-image: url("../img/flecha-verde.png");
+}
+
+ol ol ul{
+	list-style-image: url("../img/flecha-azul.png");
+}
+
+ol {
+	list-style-type: lower-alpha
+}
