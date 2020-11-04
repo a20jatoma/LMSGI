@@ -19,8 +19,8 @@ h2{
 	text-indent: 10px;
 	background-color: gray;
 	color: white;
-    font-family: 'Henny Penny';
-    src: url('../ttf/-IndieFlower.ttf');
+    font-family: 'Crimson-Roman';
+    src: url('../ttf/Crimson-Roman.ttf');
          src: url('Crimson-Roman.eot?#iefix') format('embedded-opentype'),
           url('Crimson-Roman.woff') format('woff'),
           url('Crimson-Roman.ttf') format('truetype'),
