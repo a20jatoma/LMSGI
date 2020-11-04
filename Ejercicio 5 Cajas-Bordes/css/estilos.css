@@ -1,0 +1,90 @@
+.caja1{
+	margin:2%;
+	border: 10px solid #c3ca18;
+	padding: 10px 10px 10px 20px;
+	background: #fefa59;
+	text-align: justify;
+	width: 40%;
+}
+
+.resaltado{
+	background-color: white;
+	color: blue;
+	font-weight: bold;
+}
+
+.caja2{
+	margin: 2%;
+	border: 10px dashed #c3ca18;
+	padding: 10px 10px 10px 20px;
+	background-color: #fefa59;
+	text-align: justify;
+	width: 40%;
+	border-radius: 10px 30px;
+	box-shadow: 10px 10px 5px grey;
+}
+
+pre{
+	background-color: white;
+	border: 1px solid blue;
+	margin: 2px;
+}
+
+.caja3{
+	float: right;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	margin: 2%;
+	padding: 10px 10px 10px 20px;
+	background-color: white;
+	width: 40%;
+	text-align: justify;
+	border: 20px solid black;
+	border-image-source: url(../img/bola-100.png);
+}
+
+.caja4{
+	float: right;
+	position: absolute;
+	top: 175px;
+	right: 0px;
+	margin: 2%;
+	padding: 10px 10px 10px 20px;
+	background-color: white;
+	width: 40%;
+	text-align: justify;
+	border:20px solid black;
+	border-image-source: url(../img/pastilla.png);
+	border-image-slice: 25;
+}
+
+.caja5 {
+	float: right;
+	position: absolute;
+	top: 350px;
+	right: 0px;
+	margin: 2%;
+	padding: 10px 10px 10px 20px;
+	width: 37%;
+	text-align: justify;
+	border: silver 20px solid;
+	border-width: 50px 40px 20px 40px;
+	border-image-source: url(../img/ventana.png);
+	border-image-slice: 50 80 20 80;
+}
+
+.caja6 {
+	float: right;
+	position: absolute;
+	top: 750px;
+	right: 0px;
+	margin: 2%;
+	width: 38%;
+	border: silver 40px solid;
+	border-image-source: url("../img/hormigas.png");
+	border-image-slice: 70;
+	border-image-repeat: stretch;
+	padding: 10px;
+	text-align: justify;
+}
